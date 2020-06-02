@@ -83,6 +83,7 @@
                 android:id="@+id/button_00"
                 android:freezesText="true"
                 android:layout_width="100dp"
+                android:background="#5e5e5e"
                 android:layout_height="130dp"
                 android:layout_marginTop="28dp"
                 android:layout_marginLeft="65dp"
@@ -91,6 +92,7 @@
 
             <Button
                 android:id="@+id/button_01"
+                android:background="#5e5e5e"
                 android:freezesText="true"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
@@ -102,6 +104,7 @@
             <Button
                 android:id="@+id/button_02"
                 android:freezesText="true"
+                android:background="#5e5e5e"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginLeft="30dp"
@@ -122,6 +125,7 @@
             <Button
                 android:id="@+id/button_10"
                 android:freezesText="true"
+                android:background="#5e5e5e"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginTop="28dp"
@@ -132,6 +136,7 @@
             <Button
                 android:id="@+id/button_11"
                 android:freezesText="true"
+                android:background="#5e5e5e"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginLeft="28dp"
@@ -142,6 +147,7 @@
             <Button
                 android:id="@+id/button_12"
                 android:freezesText="true"
+                android:background="#5e5e5e"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginLeft="30dp"
@@ -162,6 +168,7 @@
             <Button
                 android:id="@+id/button_20"
                 android:layout_width="100dp"
+                android:background="#5e5e5e"
                 android:layout_marginLeft="65dp"
                 android:layout_height="130dp"
                 android:layout_marginTop="24dp"
@@ -171,6 +178,7 @@
             <Button
                 android:id="@+id/button_21"
                 android:freezesText="true"
+                android:background="#5e5e5e"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginLeft="28dp"
@@ -181,6 +189,7 @@
             <Button
                 android:id="@+id/button_22"
                 android:layout_width="100dp"
+                android:background="#5e5e5e"
                 android:freezesText="true"
                 android:layout_height="130dp"
                 android:layout_marginLeft="30dp"
