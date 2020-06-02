@@ -36,19 +36,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String buttonID = "button_"+i+j;
                 int resID = getResources().getIdentifier(buttonID,"id",getPackageName());
                 buttons[i][j] = findViewById(resID);
+                buttons[i][j].setTextColor(Color.rgb(0,0,0));
                 buttons[i][j].setOnClickListener(this);
 
             }
         }
 
-        ImageView resetbutton = findViewById(R.id.resetbt);
-        resetbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                resetBoard();
-            }
-        });
-
+    }
+    public void reset(View view) {
+        resetgame();
     }
     @Override
     public void onClick(View v) {
@@ -198,4 +194,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             textViewPlayer2.setBackgroundColor(Color.rgb(128,128,128));
         }
     }
+
+
 }
